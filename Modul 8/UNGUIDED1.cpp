@@ -25,8 +25,8 @@ int main() {
     cout << "-------- mencari sebuah huruf pada sebuah kalimat Perogram --------\n";
     cout << "Masukkan kalimat : ";
     getline(cin, kalimat);
-    cout << "Masukkan kata untuk dicari : ";
+    cout << "Masukkan huruf untuk dicari : ";
     cin >> inputKata;
 
-    cout << "Kata " << inputKata << " dalam kalimat : " << (binarySearch(kalimat, inputKata) ? "Ada" : "Tidak ada");
+    cout << "Huruf " << inputKata << " dalam kalimat : " << (binarySearch(kalimat, inputKata) ? "Ada" : "Tidak ada");
 }
