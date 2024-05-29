@@ -8,11 +8,11 @@ int main() {
     getline(cin, kalimat);
 
     for (int i = 0; i < kalimat.size() ; i++) {
-        if (kalimat[i] == 'a') {vocal[0]++;}
-        if (kalimat[i] == 'i') {vocal[1]++;}
-        if (kalimat[i] == 'u') {vocal[2]++;}
-        if (kalimat[i] == 'e') {vocal[3]++;}
-        if (kalimat[i] == 'o') {vocal[4]++;}
+        if (kalimat[i] == 'a' || kalimat[i] == 'A') {vocal[0]++;}
+        if (kalimat[i] == 'i' || kalimat[i] == 'I') {vocal[1]++;}
+        if (kalimat[i] == 'u' || kalimat[i] == 'U') {vocal[2]++;}
+        if (kalimat[i] == 'e' || kalimat[i] == 'E') {vocal[3]++;}
+        if (kalimat[i] == 'o' || kalimat[i] == 'O') {vocal[4]++;}
     }
 
     cout << "\nJumlah huruf vocal dalam kalimat : \n"
