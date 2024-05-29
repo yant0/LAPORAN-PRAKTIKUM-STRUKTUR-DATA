@@ -3,14 +3,11 @@
 using namespace std;
 
 bool binarySearch(string kalimat, char key) {
-    sort(kalimat.begin(), kalimat.end());
     // searching
-    int awal, akhir, tengah;
+    sort(kalimat.begin(), kalimat.end());
+    int awal = 0, akhir = kalimat.size() , tengah;
     bool found;
-    awal = 0;
-    akhir = 7;
-    while (!found && awal <= akhir)
-    {
+    while (!found && awal <= akhir) {
         tengah = (awal + akhir) / 2;
         if (kalimat[tengah] == key) {
             found = true;
