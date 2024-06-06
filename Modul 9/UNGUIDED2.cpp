@@ -254,7 +254,7 @@ int main() {
         "1. Tambah node\n"
         "2. Tambah di kiri\n"
         "3. Tambah di kanan\n"
-        "4. Lihat karakteristik graph\n"
+        "4. Lihat karakteristik tree\n"
         "5. Lihat isi data tree\n"
         "6. Cari data tree\n"
         "7. Penelurusan (Traversal) preOrder\n"

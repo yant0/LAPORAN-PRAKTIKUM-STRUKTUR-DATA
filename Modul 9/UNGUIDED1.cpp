@@ -31,11 +31,11 @@ int main() {
 
     // CHECKS LONGEST LINE IN THE ARRAY OF CITIES
     // FOR SETW()
-    int formatting;
+    int formatting = nama_simpul[0].length()+1;
 
     for (int i = 0; i < jumlah_simpul-1; i++) {
         if (nama_simpul[i].length() < nama_simpul[i+1].length())  {
-            formatting = nama_simpul[i+1].length();
+            formatting = nama_simpul[i+1].length()+1;
         }
     }
 
