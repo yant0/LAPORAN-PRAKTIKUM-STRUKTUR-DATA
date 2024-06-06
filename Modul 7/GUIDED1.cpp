@@ -41,7 +41,6 @@ void enqueueAntrian(string data)
         if (isEmpty())
         {
             queueTeller[0] = data;
-            front++;
             back++;
         }
         else
@@ -86,7 +85,6 @@ void clearQueue()
             queueTeller[i] = "";
         }
         back = 0;
-        front = 0;
     }
 }
 
@@ -109,6 +107,9 @@ void viewQueue()
 int main()
 {
     enqueueAntrian("Andi");
+    enqueueAntrian("Maya");
+    enqueueAntrian("Maya");
+    enqueueAntrian("Maya");
     enqueueAntrian("Maya");
     viewQueue();
     cout << "Jumlah antrian = " << countQueue() << endl;
